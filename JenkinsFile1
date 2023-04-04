@@ -27,7 +27,7 @@ changesdonepipeline{
             agent {label 'win_slave'}
             steps{
                 git 'https://github.com/devops-trainer/DevOpsClassCodes.git'
-                bat 'mvn test'
+                bat  'mvn test'
             }
         }
         stage('MetricCheck'){
